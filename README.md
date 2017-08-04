@@ -114,14 +114,16 @@ following *OS*es.
 
 * *Mageia*
 
-In theory, any distribution may be used on the host for
-building images containing any other distribution, as long as
-the necessary tools are available. Specifically, any distro
-that packages `debootstrap` may be used to build *Debian* or
-*Ubuntu* images. Any distro that packages `dnf` may be used to
-build *Fedora* or *Mageia* images. Any distro that packages
-`pacstrap` may be used to build *Arch Linux* images. Any distro
-that packages `zypper` may be used to build *openSUSE* images.
+En théorie, toute distribution peut être utilisée sur l'hôte pour construire 
+des images contenant toute autres distribution, aussi longtemps que les outils
+nécessaires sont disponibles. 
+Plus précisément, toutes 'distros' qui fonctionnes avec les paquets `debootstrap` 
+peuvent être utilisés pour construire 'Debian' ou 'Images Ubuntu'.
+Et toutes les 'distros' qui fonctionnes avec 'dnf' et le standard '.RPM' peuvent être 
+utilisés pour construire 'Fedora' ou 'Mageia' images. 
+Enfin toutes 'distros' qui utilisent les paquets les scripts 'pacman' avec l'outils 
+'Pacstrap' peuvent être utilisé pour construire des images 'Arch Linux'. 
+Les paquets 'zypper' peuvents être utilisés pour construire des images * openSUSE *.
 
 Currently, *Fedora* packages all four tools as of Fedora 26.
 
